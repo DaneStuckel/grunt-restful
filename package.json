@@ -1,0 +1,44 @@
+{
+  "name": "grunt-restful",
+  "description": "Connect to restful api and download response",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Quinthexadec/grunt-get-restful",
+  "author": {
+    "name": "Dane Stuckel",
+    "email": "dane.stuckel@gmail.com",
+    "url": "http://danestuckel.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Quinthexadec/grunt-restful.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Quinthexadec/grunt-restful/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Quinthexadec/grunt-restful/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "read": "*",
+    "restler": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
