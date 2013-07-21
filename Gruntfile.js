@@ -15,6 +15,8 @@ module.exports = function(grunt) {
     // Configuration to be run (and then tested).
     'restful': {
         options: {
+            uri: 'https://mingle.eng.shaw.ca/api/v2/projects/project_1_4_guide_program/cards/8756.xml',
+            secure: false
         }
     }
   });
